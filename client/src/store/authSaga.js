@@ -1,6 +1,6 @@
 import { call, put, takeLatest } from "redux-saga/effects";
 import api from "../utils/axios.js";
-import * as types from "./authActionTypes.js";
+import * as types from "./authactionTypes.js";
 import {
   loginSuccess,
   loginFailure,
