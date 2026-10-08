@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink, Link, useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { FaTicketAlt } from "react-icons/fa";
-import { logoutRequest } from "../../store/authActions";
+import { logoutRequest } from "../../store/authActions.js";
 import "./Navbar.css";
 
 const Navbar = () => {

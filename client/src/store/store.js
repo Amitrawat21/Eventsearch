@@ -1,7 +1,7 @@
 import { configureStore } from "@reduxjs/toolkit";
 import createSagaMiddleware from "redux-saga";
 import authReducer from "./authReducer.js";
-import rootSaga from "./rootSaga";
+import rootSaga from "./rootSaga.js";
 
 const sagaMiddleware = createSagaMiddleware();
 

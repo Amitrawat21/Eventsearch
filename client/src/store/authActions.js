@@ -1,4 +1,4 @@
-import * as types from "./authActionTypes";
+import * as types from "./authActionTypes.js";
 
 // Login
 export const loginRequest = ({ email, password }) => ({

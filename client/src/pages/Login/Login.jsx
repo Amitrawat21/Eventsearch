@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { useNavigate, Link } from "react-router-dom";
-import {loginRequest, verifyOtpRequest, clearAuthError} from "../../store/authActions";
+import {
+  loginRequest,
+  verifyOtpRequest,
+  clearAuthError,
+} from "../../store/authActions.js";
 import "./Login.css";
-
-
 
 const Login = () => {
   const [email, setEmail] = useState("");

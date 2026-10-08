@@ -1,4 +1,4 @@
-import * as types from "./authActionTypes";
+import * as types from "./authActionTypes.js";
 
 const storedUser = localStorage.getItem("userInfo");
 
